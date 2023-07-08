@@ -14,6 +14,8 @@ Programa gratuito feito na intenção de estudar sobre HTML, CSS e Javascript.</
 
 <div>
  <img src=".github/dark-mode.jpg" alt="dark-mode img">
+  <img src=".github/light-mode.jpg" alt="dark-mode img">
+
 </div>
  
 
