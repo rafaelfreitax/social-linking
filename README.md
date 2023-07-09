@@ -28,6 +28,3 @@ Programa gratuito feito na intenção de estudar sobre HTML, CSS e Javascript.</
  </p>
 
 </div>
- 
-
-
