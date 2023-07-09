@@ -3,13 +3,15 @@
 <p align="center"> 
 Programa gratuito feito na intenção de estudar sobre HTML, CSS e Javascript.</p>
 
-<p align="left"> Tecnologias:
+<p align="left"> Projeto foi desenvolvido usando:
 <br>
-- HTML
-<br>
-- CSS
+- HTML e CSS
 <br>
 - Javascript
+<br>
+- Git e Github
+<br>
+- Figma
 </p>
 
 <div>
