@@ -2,8 +2,11 @@
 
 <p align="center"> 
 Programa gratuito feito na intenção de estudar sobre HTML, CSS e Javascript.</p>
+<br>
+<br>
 
 <p align="left"> Projeto foi desenvolvido usando:
+<br>
 <br>
 - HTML e CSS
 <br>
@@ -13,6 +16,7 @@ Programa gratuito feito na intenção de estudar sobre HTML, CSS e Javascript.</
 <br>
 - Figma
 </p>
+<br>
 
 <div>
  <p align="center"> Dark Mode 
