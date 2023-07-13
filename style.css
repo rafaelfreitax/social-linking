@@ -13,6 +13,7 @@
   --border-hover: rgb(246, 246, 246);
   --icon-hover: rgba(168, 165, 165, 0.3);
   --lua-: url(./assets/sol.svg);
+  --botao-cover: rgba(255, 255, 255, 0.5);
 }
 .light {
   --cor-texto: black;
@@ -22,6 +23,7 @@
   --border-hover: black;
   --icon-hover: rgba(243, 239, 239, 0.616);
   --lua-: url(./assets/lua.svg);
+  --botao-cover: rgba(80, 80, 80, 0.5);
 
   /*CONFIG BG E TEXTO*/
 }
@@ -84,7 +86,8 @@ body * {
   position: absolute;
   z-index: 1;
   top: 50%;
-
+  right: 50;
+  animation: slide-2 0.2s;
   transform: translateY(-50%);
 }
 #botao span {
@@ -97,9 +100,14 @@ body * {
   -webkit-backdrop-filter: blur(4px);
 }
 
-.light #botao button {
-  right: 0;
+#botao button:hover {
+  outline: 8px solid var(--botao-cover)
 }
+
+.light #botao button {
+  animation: slide-1 0.2s forwards
+}
+
 
 /* CAIXA DE LINKS */
 UL {
@@ -157,3 +165,22 @@ ul li a:hover {
   font-weight: 100;
   color: rgba(255, 255, 255, 0.5);
 }
+
+@keyframes slide-1 {
+from {
+  right: 50;
+}
+to {
+  right: 0;
+}
+}
+
+@keyframes slide-2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 50;
+  }
+}
+
