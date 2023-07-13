@@ -37,7 +37,8 @@ body * {
 
 /* BOX */
 #caixaprincipal {
-  width: 588px;
+  width: 100%;
+  max-width: 588px;
   height: 712px;
   margin-left: auto;
   margin-right: auto;
