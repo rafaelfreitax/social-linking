@@ -3,4 +3,9 @@ function toggleMode() {
 
 
   html.classList.toggle("light")
-}
+  html2.classList.toggle("light")
+  }
+
+
+
+
